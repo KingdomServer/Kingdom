@@ -141,7 +141,6 @@ a {
 }
 .header .nav h1 {
     color: #e08437;
-    font-family: cursive;
     margin: 0px;
     transform: translate(10px, -2px);
     font-size: 35px;
@@ -194,7 +193,6 @@ a {
     position: relative;
     padding: 20.63px  16px;
     color: #e08437;
-    font-family: cursive;
     font-size: 18px;
 }
 .header .nav .list a::before {
@@ -359,7 +357,6 @@ a {
     }
     .mobile-ul .mobile-list li a {
         color: #e38537;
-        font-family: cursive;
         font-size: 18px;
         padding: 16px 70% 0 0;
 
@@ -577,14 +574,12 @@ a {
 }
 .landing .left-side .text h3  span{
     color: #e08437;
-    font-family: cursive;
 }
 .landing .left-side .text p {
     margin-top: 35px;
     color: white;
     margin-left: 0px;
     font-size: 18px;
-    font-family: cursive;
 }
 .landing .left-side .text p span {
     color: #e08437;
@@ -646,7 +641,6 @@ a {
     -o-transform: rotateY(180deg);
 }
 .landing .left-side .cards .card .back h3 {
-    font-family: cursive;
 }
 .landing .view {
     width: 40%;
@@ -792,7 +786,6 @@ a {
 }
 .who h1 span {
     color: #e08437;
-    font-family: cursive;
 }
 .about .container {
     margin-top: 30px;
@@ -843,11 +836,9 @@ a {
 }
 .about .container .left span {
     color: #e08437;
-    font-family: cursive;
 }
 .about .container .left .discord {
     color: #3f51b5;
-    font-family: cursive;
 }
 .about .container .right {
     width: 50%;
@@ -993,7 +984,6 @@ a {
 }
 .footer .container .logo p {
     color: #e08437;
-    font-family: cursive;
     margin: 0px;
     transform: translate(10px, -2px);
     font-size: 32px;
