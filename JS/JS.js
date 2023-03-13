@@ -31,6 +31,7 @@ if (toogleMenu == 1) {
     span2.style.width = "0%"
     span3.style.bottom = "5px"
     span3.style.transform = "rotate(-45deg)"
+    document.body.style.overflow = "hidden"
 } else if (toogleMenu == 0) {
     mobileul.style.right = "100%"
     imgBackground.style.boxShadow = "0px 0px 30px 10px #e08437bf"
@@ -40,6 +41,7 @@ if (toogleMenu == 1) {
     span2.style.width = "100%"
     span3.style.bottom = "0px"
     span3.style.transform = "rotate(0deg)"
+    document.body.style.overflow = "auto"
 }
 }
 header.onclick = function () {
