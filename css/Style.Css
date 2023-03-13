@@ -358,7 +358,7 @@ a {
     .mobile-ul .mobile-list li a {
         color: #e38537;
         font-size: 18px;
-        padding: 16px 70% 0 0;
+        padding: 16px 70% 0 10px;
 
     }
     .mobile-ul .mobile-list li a::before {
