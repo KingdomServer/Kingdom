@@ -42,7 +42,7 @@ if (toogleMenu == 1) {
     span3.style.bottom = "0px"
     span3.style.transform = "rotate(0deg)"
     document.body.style.overflow = "auto"
-}
+   }
 }
 header.onclick = function () {
     mobileul.style.right = "100%"
