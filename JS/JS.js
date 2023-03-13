@@ -54,6 +54,7 @@ header.onclick = function () {
     span2.style.width = "100%"
     span3.style.bottom = "0px"
     span3.style.transform = "rotate(0deg)"
+    toogleMenu = 1
     document.body.style.overflow = "auto"
 }
 
