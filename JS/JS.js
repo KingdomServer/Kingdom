@@ -19,18 +19,28 @@ logo.onmouseleave = function () {
     imgBackground.style.boxShadow = "0px 0px 30px 10px #e08437bf"
 }
 
+let toogleMenu = 0;
 
-reveal.onclick = function () {
+function toogleStatue()  {
+if (toogleMenu == 1) {
     mobileul.style.right = "0%"
     imgBackground.style.boxShadow = "0px 0px 0px 0px #e08437bf"
-    reveal.style.display = "none"
-    revealtwo.style.display = "flex"
-}
-revealtwo.onclick = function () {
+    toogleMenu = 0
+    span1.style.top = "5px"
+    span1.style.transform = "rotate(45deg)"
+    span2.style.width = "0%"
+    span3.style.bottom = "5px"
+    span3.style.transform = "rotate(-45deg)"
+} else if (toogleMenu == 0) {
     mobileul.style.right = "100%"
     imgBackground.style.boxShadow = "0px 0px 30px 10px #e08437bf"
-    revealtwo.style.display = "none"
-    reveal.style.display = "flex"
+    toogleMenu = 1
+    span1.style.top = "0px"
+    span1.style.transform = "rotate(0deg)"
+    span2.style.width = "100%"
+    span3.style.bottom = "0px"
+    span3.style.transform = "rotate(0deg)"
+}
 }
 header.onclick = function () {
     mobileul.style.right = "100%"
