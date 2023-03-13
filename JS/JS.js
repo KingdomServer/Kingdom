@@ -49,6 +49,7 @@ header.onclick = function () {
     imgBackground.style.boxShadow = "0px 0px 30px 10px #e08437bf"
     revealtwo.style.display = "none"
     reveal.style.display = "flex"
+    document.body.style.overflow = "auto"
 }
 
 if (window.scrollX >= 900) {
