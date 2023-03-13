@@ -49,6 +49,11 @@ header.onclick = function () {
     imgBackground.style.boxShadow = "0px 0px 30px 10px #e08437bf"
     revealtwo.style.display = "none"
     reveal.style.display = "flex"
+    span1.style.top = "0px"
+    span1.style.transform = "rotate(0deg)"
+    span2.style.width = "100%"
+    span3.style.bottom = "0px"
+    span3.style.transform = "rotate(0deg)"
     document.body.style.overflow = "auto"
 }
 
