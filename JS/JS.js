@@ -19,7 +19,7 @@ logo.onmouseleave = function () {
     imgBackground.style.boxShadow = "0px 0px 30px 10px #e08437bf"
 }
 
-let toogleMenu = 0;
+let toogleMenu = 1;
 
 function toogleStatue()  {
 if (toogleMenu == 1) {
