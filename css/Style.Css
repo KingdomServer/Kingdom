@@ -310,16 +310,11 @@ a {
         -ms-transition: 0.8s;
         -o-transition: 0.8s;
     }
-    .header .nav .ul-revealtwo .span-1 {
-        transform: rotate(45deg);
-        top: 5px;
+    .header .nav .ul-reveal .span-1 {
+        top: 0;
     }
-    .header .nav .ul-revealtwo .span-2 {
-        width: 0%;
-    }
-    .header .nav .ul-revealtwo .span-3 {
-        transform: rotate(-45deg);
-        bottom: 5px;
+    .header .nav .ul-reveal .span-3 {
+        bottom: 0;
     }
     .mobile-ul {
     background-color: #1e1e1e;
